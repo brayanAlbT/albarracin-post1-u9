@@ -2,4 +2,5 @@
 
 public interface CitaReminderService {
     int enviarRecordatoriosPendientes();
+    void enviarRecordatorioUrgente(Long citaId);
 }
